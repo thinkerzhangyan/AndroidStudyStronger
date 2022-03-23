@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+import com.example.androidstudystronger.popupwindow.PopupActivity;
 import com.example.androidstudystronger.recyclerview.RecyclerViewActivity;
 
 public class MainActivity extends AppCompatActivity {
@@ -16,5 +17,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         findViewById(R.id.text_recycler_view).setOnClickListener(view -> startActivity(new Intent(MainActivity.this, RecyclerViewActivity.class)));
+        findViewById(R.id.text_popup).setOnClickListener(view -> startActivity(new Intent(MainActivity.this, PopupActivity.class)));
     }
 }

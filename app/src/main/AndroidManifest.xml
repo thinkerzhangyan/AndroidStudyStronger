@@ -20,6 +20,9 @@
         <activity
             android:name=".recyclerview.RecyclerViewActivity"
             android:exported="false"></activity>
+        <activity
+            android:name=".popupwindow.PopupActivity"
+            android:exported="false"></activity>
     </application>
 
 </manifest>
