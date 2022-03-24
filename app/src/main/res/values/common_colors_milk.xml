@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--通用色板 定义了客户端通用的色板 -start-->
+    <!--<color name="milk_white">@color/milk_Text</color>-->
+    <color name="milk_Red">#EE1A1A</color>
+    <color name="milk_Red_20">#33EE1A1A</color>
+    <color name="milk_Red_50">#80EE1A1A</color>
+    <color name="milk_Red_70">#B2EE1A1A</color>
+    <color name="milk_Red_BG">#EB413D</color>
+    <color name="milk_SoftRed">#ED4545</color>
+    <color name="milk_Blue">#1B88EE</color>
+    <color name="milk_Blue_50">#801B88EE</color>
+    <color name="milk_Yellow">#F5A623</color>
+    <color name="milk_LightYellow">#F1D9B0</color>
+    <color name="milk_Orange">#FE5D10</color>
+    <color name="milk_Orange_50">#80FE5D10</color>
+    <color name="milk_LightOrange">#DCA977</color>
+    <color name="milk_Brown">#783C00</color>
+    <color name="milk_Lemon">#F5E159</color>
+    <color name="milk_Gold">#C38F3A</color>
+    <color name="milk_Green">#6EB529</color>
+    <color name="milk_LightGold">#E2BA7C</color>
+    <color name="milk_Khaki">#C38F3A</color>
+    <color name="milk_black">#000000</color>
+    <color name="milk_black22">#222222</color>
+    <color name="milk_black33">#333333</color>
+    <color name="milk_black55">#555555</color>
+    <color name="milk_black66">#666666</color>
+    <color name="milk_black77">#777777</color>
+    <color name="milk_black99">#999999</color>
+    <color name="milk_blackAA">#AAAAAA</color>
+    <color name="milk_blackB4">#B4B4B4</color>
+    <color name="milk_blackBB">#bbbbbb</color>
+    <color name="milk_blackCC">#cccccc</color>
+    <color name="milk_blackDD">#dddddd</color>
+    <color name="milk_blackEE">#eeeeee</color>
+    <color name="green">#10b61b</color>
+    <color name="blackF5">#F5F5F5</color>
+    <color name="blackF8">#F8F8F8</color>
+    <color name="blackEB">#EBEBEB</color>
+    <color name="night_blackF5">#212121</color>
+
+    <color name="news_list_ad_button_border_color">#a31B88EE</color>
+
+    <!--分割面 RGB(243,245,247)-->
+    <color name="milk_bluegrey0">#EDEFF3</color>
+    <!--分割线 RGB(245,247,249)-->
+    <color name="milk_bluegrey1">#f5f7f9</color>
+    <color name="milk_bluegrey2">#f5f7f9</color>
+    <color name="milk_background">#ffffff</color>
+
+    <color name="milk_card_recycler_background">#EEF1F4</color>
+    <color name="night_milk_card_recycler_background">#141415</color>
+
+    <color name="milk_Text">#ffffff</color>
+    <color name="whiteFF">#FFFFFF</color>
+    <color name="milk_stroke">#0D333333</color>
+    <color name="night_milk_stroke">#0D777777</color>
+
+    <color name="milk_lightRed">#f6b6b6</color>
+    <color name="night_milk_lightRed">#f6b6b6</color>
+    <color name="milk_darkRed">#892323</color>
+    <color name="night_milk_darkRed">#631b1b</color>
+
+    <!--night-->
+    <color name="night_milk_Red">#892323</color>
+    <color name="night_milk_Red_20">#33892323</color>
+    <color name="night_milk_Red_50">#80892323</color>
+    <color name="night_milk_Red_70">#B2892323</color>
+    <color name="night_milk_Red_BG">#75201E</color>
+    <color name="night_milk_SoftRed">#762222</color>
+    <color name="night_milk_Blue">#144E84</color>
+    <color name="night_milk_Blue_50">#80144E84</color>
+    <color name="night_milk_Yellow">#7A5313</color>
+    <color name="night_milk_LightYellow">#786C57</color>
+    <color name="night_milk_Orange">#7C300B</color>
+    <color name="night_milk_Orange_50">#807C300B</color>
+    <color name="night_milk_LightOrange">#6D543B</color>
+    <color name="night_milk_Brown">#5B3813</color>
+    <color name="night_milk_Lemon">#938735</color>
+    <color name="night_milk_Gold">#745522</color>
+    <color name="night_milk_Green">#45691E</color>
+    <color name="night_milk_LightGold">#715D3E</color>
+    <color name="night_milk_Khaki">#61471C</color>
+    <color name="night_milk_black33">#777777</color>
+    <color name="night_milk_black55">#777777</color>
+    <color name="night_milk_black66">#666666</color>
+    <color name="night_milk_black77">#555555</color>
+    <color name="night_milk_black99">#505050</color>
+    <color name="night_milk_blackAA">#4B4B4B</color>
+    <color name="night_milk_blackB4">#444444</color>
+    <color name="night_milk_blackBB">#444444</color>
+    <color name="night_milk_blackCC">#333333</color>
+    <color name="night_milk_blackDD">#303030</color>
+    <color name="night_milk_blackEE">#282828</color>
+    <color name="night_green">#075a0d</color>
+    <color name="night_milk_bluegrey0">#272829</color>
+    <color name="night_milk_bluegrey1">#151516</color>
+    <color name="night_milk_bluegrey2">#212121</color>
+
+    <color name="night_milk_background">#1d1d1e</color>
+    <color name="night_milk_Text">#888888</color>
+    <color name="night_whiteFF">#888888</color>
+    <!--milk通用色板 -end-->
+
+    <color name="milk_Red_a70">#4CEE1A1A</color>
+    <color name="night_milk_Red_a70">#4C892323</color>
+
+    <color name="milk_Red_a10">#1aEE1A1A</color>
+    <color name="night_milk_Red_a10">#1a892323</color>
+
+    <color name="milk_Red_a30">#4cEE1A1A</color>
+    <color name="night_milk_Red_a30">#4c892323</color>
+
+    <color name="milk_LightYellow_a30">#4cF1D9B0</color>
+    <color name="night_milk_LightYellow_a30">#4c786C57</color>
+
+    <color name="milk_Blue_a10">#1a1B88EE</color>
+    <color name="night_milk_Blue_a10">#1a144E84</color>
+
+    <color name="milk_white_a60">#99FFFFFF</color>
+    <color name="milk_white_a90">#E6FFFFFF</color>
+
+    <color name="milk_white_a70">#B3FFFFFF</color>
+    <color name="night_milk_white_a70">#B3888888</color>
+
+    <color name="milk_white_a15">#26FFFFFF</color>
+
+    <color name="milk_white_a30">#4BFFFFFF</color>
+    <color name="night_milk_white_a30">#4B888888</color>
+
+    <color name="milk_white">#FFFFFF</color>
+    <color name="night_milk_white">#888888</color>
+
+    <color name="milk_white_opacity">#80FFFFFF</color>
+    <color name="night_milk_white_opacity">#80888888</color>
+
+
+    <color name="milk_Red_pressed">#D61717</color>
+    <color name="night_milk_Red_pressed">#7B1F1F</color>
+
+    <color name="milk_Red_disable">#F9BABA</color>
+    <color name="night_milk_Red_disable">#3D1F20</color>
+
+    <color name="milk_transparent">#00000000</color>
+    <color name="night_milk_transparent">#00000000</color>
+
+    <color name="milk_transparent_black">#66000000</color>
+    <color name="milk_Brown_a80">#80783C00</color>
+
+    <color name="milk_99_a15">#26999999</color>
+    <color name="milk_99_a15_pressed">#4c999999</color>
+    <color name="night_milk_99_a15">#26505050</color>
+    <color name="night_milk_99_a15_pressed">#4c505050</color>
+
+    <color name="milk_black33_a10">#1A333333</color>
+    <color name="milk_black33_a20">#33333333</color>
+    <color name="night_milk_black33_a10">#1A777777</color>
+    <color name="milk_blackEE_a30">#4DEEEEEE</color>
+    <color name="milk_black33_a15">#26333333</color>
+    <color name="milk_black33_a60">#99333333</color>
+    <color name="milk_black33_a70">#B3333333</color>
+
+    <!--带透明度黑色-->
+    <color name="black00_04">#0A000000</color>
+    <color name="black00_06">#0f000000</color>
+    <color name="black00_00">#00000000</color>
+    <color name="black00_10">#1A000000</color>
+    <color name="black00_12">#1F000000</color>
+    <color name="black00_20">#33000000</color>
+    <color name="black00_25">#3F000000</color>
+    <color name="black00_30">#4A000000</color>
+    <color name="black00_40">#66000000</color>
+    <color name="black00_50">#80000000</color>
+    <color name="black00_60">#99000000</color>
+    <color name="black00_70">#B3000000</color>
+    <color name="black00_80">#CC000000</color>
+    <color name="black00_100">#FF000000</color>
+
+    <color name="biz_img_border_color">#1A333333</color>
+    <color name="night_biz_img_border_color">#1A777777</color>
+
+    <color name="biz_rank_num_1_color">#ff3e3d</color>
+    <color name="biz_rank_num_2_color">#ffa000</color>
+    <color name="biz_rank_num_3_color">#caa38f</color>
+    <color name="biz_rank_num_other_color">#acb2be</color>
+
+    <color name="night_biz_rank_num_1_color">#b33d33</color>
+    <color name="night_biz_rank_num_2_color">#a97a25</color>
+    <color name="night_biz_rank_num_3_color">#be9a89</color>
+    <color name="night_biz_rank_num_other_color">#83868b</color>
+
+
+</resources>

@@ -31,6 +31,7 @@ public class RecyclerViewActivity extends AppCompatActivity {
         //getAdapterPosition和getLayoutAdapterPosition的区别的测试代码
         RecyclerView recyclerView = findViewById(R.id.recycler_list);
         recyclerView.setLayoutManager(new LinearLayoutManager(this,LinearLayoutManager.VERTICAL,false));
+        recyclerView.addItemDecoration(new ListItemDecoration());
         final List<ListBean> dataList = new ArrayList<>();
         for (int i = 0; i < 20; i++) {
             dataList.add(new ListBean(String.valueOf(i)));
