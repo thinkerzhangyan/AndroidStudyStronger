@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <declare-styleable name="AbstractPkBarView">
+        <attr name="corners" format="dimension|reference" />
+        <attr name="middle_space" format="dimension|reference" />
+        <attr name="left_color" format="color|reference" />
+        <attr name="right_color" format="color|reference" />
+        <attr name="ratio" format="dimension|reference" />
+        <attr name="offset_space" format="dimension|reference" />
+        <attr name="is_gradient" format="boolean" />
+        <attr name="left_tip_size" format="dimension|reference" />
+        <attr name="right_tip_size" format="dimension|reference" />
+        <attr name="left_tip_selected_color" format="color|reference" />
+        <attr name="right_tip_unselected_color" format="color|reference" />
+        <attr name="left_tip_unselected_color" format="color|reference" />
+        <attr name="right_tip_selected_color" format="color|reference" />
+        <attr name="left_selected_start_color" format="color|reference" />
+        <attr name="left_selected_end_color" format="color|reference" />
+        <attr name="right_selected_start_color" format="color|reference" />
+        <attr name="right_selected_end_color" format="color|reference" />
+        <attr name="left_unselected_start_color" format="color|reference" />
+        <attr name="left_unselected_end_color" format="color|reference" />
+        <attr name="right_unselected_start_color" format="color|reference" />
+        <attr name="right_unselected_end_color" format="color|reference" />
+        <attr name="lightImage" format="reference" />
+    </declare-styleable>
+</resources>

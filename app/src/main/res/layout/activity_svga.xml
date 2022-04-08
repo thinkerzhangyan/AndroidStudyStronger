@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipChildren="false"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <com.opensource.svgaplayer.SVGAImageView
+            android:id="@+id/red_svga_view"
+            android:layout_width="0dp"
+            android:layout_height="62dp"
+            android:layout_gravity="left"
+            android:layout_marginRight="-10dp"
+            android:layout_weight="1"
+            android:scaleType="centerCrop"
+            app:clearsAfterStop="false"
+            app:fillMode="Forward" />
+
+        <com.opensource.svgaplayer.SVGAImageView
+            android:id="@+id/blue_svga_view"
+            android:layout_width="0dp"
+            android:layout_height="62dp"
+            android:layout_gravity="right"
+            android:layout_marginLeft="-14dp"
+            android:layout_weight="1"
+            android:scaleType="centerCrop"
+            app:clearsAfterStop="false"
+            app:fillMode="Forward" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="horizontal"
+        android:id="@+id/option_tip_layout"
+        android:visibility="invisible">
+
+        <TextView
+            android:id="@+id/text_left_option"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#EE1A1A"
+            android:textSize="12.96sp"
+            tools:visibility="visible"
+            android:text="已选：会结束"/>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/text_right_option"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:textColor="#1B88EE"
+            android:textSize="12.96sp"
+            tools:visibility="visible"
+            android:text="不会"
+            />
+    </LinearLayout>
+
+    <com.example.androidstudystronger.custom.ReaderPkBarView
+        android:id="@+id/reader_pk_bar_view"
+        android:layout_width="match_parent"
+        android:layout_height="25.44dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        app:corners="12dp"
+        app:is_gradient="true"
+        app:left_selected_start_color="@color/pk_left_selected_start_color"
+        app:left_selected_end_color="@color/pk_left_selected_end_color"
+        app:left_unselected_start_color="@color/pk_left_unselected_start_color"
+        app:left_unselected_end_color="@color/pk_left_unselected_end_color"
+        app:right_selected_start_color="@color/pk_right_selected_start_color"
+        app:right_selected_end_color="@color/pk_right_selected_end_color"
+        app:right_unselected_start_color="@color/pk_right_unselected_start_color"
+        app:right_unselected_end_color="@color/pk_right_unselected_end_color"
+        app:left_tip_selected_color="@color/pk_left_tip_selected_color"
+        app:left_tip_unselected_color="@color/pk_left_tip_unselected_color"
+        app:right_tip_selected_color="@color/pk_right_tip_selected_color"
+        app:right_tip_unselected_color="@color/pk_right_tip_unselected_color"
+        app:left_tip_size="11sp"
+        app:right_tip_size="11sp"
+        app:lightImage="@drawable/saoguang"
+        app:middle_space="2dp"
+        app:offset_space="4dp"
+        android:visibility="invisible"/>
+
+    <Button
+        android:id="@+id/play_svga"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="40dp"
+        android:text="播放svga" />
+
+    <Button
+        android:id="@+id/play_progress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="bottom"
+        android:text="播放进度条动画" />
+</LinearLayout>

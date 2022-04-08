@@ -24,6 +24,9 @@
         <activity
             android:name=".popupwindow.PopupActivity"
             android:exported="false"></activity>
+        <activity
+            android:name=".svga.PkSvgaActivity"
+            android:exported="false"></activity>
     </application>
 
 </manifest>
