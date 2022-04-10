@@ -28,4 +28,11 @@
         android:gravity="center"
         android:text="打开Svga" />
 
+    <TextView
+        android:id="@+id/text_span"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="center"
+        android:text="span" />
+
 </LinearLayout>
