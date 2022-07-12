@@ -30,6 +30,18 @@
         <activity
             android:name=".span.SpanActivity"
             android:exported="false"></activity>
+        <activity android:name=".canvas.CanvasActivity">
+        </activity>
+        <activity android:name=".canvas.CanvasAndPaintActivity"></activity>
+        <activity android:name=".canvas.CanvasSaveScaleActivity"></activity>
+        <activity android:name=".canvas.CanvasLayerActivity"></activity>
+        <activity android:name=".canvas.ClockActivity"></activity>
+        <activity android:name=".canvas.OtherActivity"></activity>
+        <activity android:name=".canvas.ClipRectActivity">
+        </activity>
+        <activity android:name=".canvas.ClipPathActivity"></activity>
+        <activity android:name=".canvas.DrawTextActivity"></activity>
+        <activity android:name=".canvas.XferModeActivity"></activity>
     </application>
 
 </manifest>

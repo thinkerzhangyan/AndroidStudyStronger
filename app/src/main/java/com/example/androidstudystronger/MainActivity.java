@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 
+import com.example.androidstudystronger.canvas.CanvasActivity;
 import com.example.androidstudystronger.popupwindow.PopupActivity;
 import com.example.androidstudystronger.recyclerview.RecyclerViewActivity;
 import com.example.androidstudystronger.span.SpanActivity;
@@ -21,5 +22,8 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.text_popup).setOnClickListener(view -> startActivity(new Intent(MainActivity.this, PopupActivity.class)));
         findViewById(R.id.text_svga).setOnClickListener(view -> startActivity(new Intent(MainActivity.this, PkSvgaActivity.class)));
         findViewById(R.id.text_span).setOnClickListener(view -> startActivity(new Intent(MainActivity.this, SpanActivity.class)));
+        findViewById(R.id.text_canvas).setOnClickListener(view -> startActivity(new Intent(MainActivity.this, CanvasActivity.class)));
+
+
     }
 }
