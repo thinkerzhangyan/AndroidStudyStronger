@@ -40,7 +40,7 @@
         <activity android:name=".canvas.ClipRectActivity">
         </activity>
         <activity android:name=".canvas.ClipPathActivity"></activity>
-        <activity android:name=".canvas.DrawTextActivity"></activity>
+        <activity android:name=".text.DrawTextActivity"></activity>
         <activity android:name=".canvas.XferModeActivity"></activity>
     </application>
 

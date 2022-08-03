@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.example.androidstudystronger.R;
+import com.example.androidstudystronger.text.DrawTextActivity;
 
 import androidx.appcompat.app.AppCompatActivity;
 

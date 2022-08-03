@@ -1,4 +1,4 @@
-package com.example.androidstudystronger.canvas;
+package com.example.androidstudystronger.text;
 
 import android.app.Activity;
 import android.os.Bundle;
