@@ -42,6 +42,7 @@
         <activity android:name=".canvas.ClipPathActivity"></activity>
         <activity android:name=".text.DrawTextActivity"></activity>
         <activity android:name=".canvas.XferModeActivity"></activity>
+        <activity android:name=".custom.CustomViewActivity"/>
     </application>
 
 </manifest>

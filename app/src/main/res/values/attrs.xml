@@ -24,4 +24,12 @@
         <attr name="right_unselected_end_color" format="color|reference" />
         <attr name="lightImage" format="reference" />
     </declare-styleable>
+
+
+    <declare-styleable name="SectorView">
+        <attr name="totalTime" format="float" />
+        <attr name="perTimeGap" format="float" />
+        <attr name="sectorColor" format="color" />
+    </declare-styleable>
+
 </resources>
