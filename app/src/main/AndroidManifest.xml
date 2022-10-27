@@ -43,6 +43,8 @@
         <activity android:name=".text.DrawTextActivity"></activity>
         <activity android:name=".canvas.XferModeActivity"></activity>
         <activity android:name=".custom.CustomViewActivity"/>
+        <activity android:name=".jetpack.LiveDataActivity"/>
+        <activity android:name=".jetpack.JetpackActivity"/>
     </application>
 
 </manifest>
