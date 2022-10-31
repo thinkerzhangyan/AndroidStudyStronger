@@ -14,4 +14,12 @@
         android:gravity="center"
         android:text="LiveData" />
 
+
+    <TextView
+        android:id="@+id/text_data_binding"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="center"
+        android:text="DataBinding" />
+
 </LinearLayout>
