@@ -4,10 +4,12 @@ import android.content.Context
 import android.util.AttributeSet
 import android.util.Log
 import android.view.View
-import androidx.databinding.BindingAdapter
-import androidx.databinding.InverseBindingAdapter
-import androidx.databinding.InverseBindingListener
+import android.widget.Toast
+import androidx.databinding.*
 
+@BindingMethods(value = [
+    BindingMethod(type = CustomView::class,attribute = "android:custom_text",method = "showCustomToast")
+])
 class CustomView(context: Context?, attrs: AttributeSet?) : View(context, attrs) {
     var data: String? = ""
 
@@ -44,4 +46,13 @@ class CustomView(context: Context?, attrs: AttributeSet?) : View(context, attrs)
         }
 
     }
+
+    fun showCustomToast(text:String){
+        Toast.makeText(context,text,Toast.LENGTH_SHORT).show()
+    }
+
+    //如果把showCustomToast写成这种形式，会报错
+//    fun showCustomToast(view: CustomView, text: String) {
+//        Toast.makeText(context, text, Toast.LENGTH_SHORT).show()
+//    }
 }
